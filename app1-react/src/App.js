@@ -1,8 +1,10 @@
-import './App.css';
+import "./App.css";
 import OnclickExample from "./Components/FormDetails";
 import FormSubmission from "./Components/form-submission";
 import Counter from "./Components/Counter";
-import Todo from "./Components/Todo"
+import Todo from "./Components/Todo";
+import FetchApi from "./Components/fetchApi";
+import FetchApiTable from "./Components/fetchapi-table";
 function App() {
   return (
     <div className="App">
@@ -10,7 +12,9 @@ function App() {
       {/* <OnclickExample />
       <FormSubmission />
       <Counter /> */}
-      <Todo />
+      {/* <Todo /> */}
+      {/* <FetchApi /> */}
+      <FetchApiTable/>
     </div>
   );
 }
