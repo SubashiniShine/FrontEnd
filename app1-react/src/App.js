@@ -1,0 +1,16 @@
+import './App.css';
+import OnclickExample from "./Components/FormDetails";
+import FormSubmission from "./Components/form-submission";
+import Counter from "./Components/Counter";
+function App() {
+  return (
+    <div className="App">
+      <h1>React Coding Example</h1>
+      <OnclickExample />
+      <FormSubmission />
+      <Counter />
+    </div>
+  );
+}
+
+export default App;
