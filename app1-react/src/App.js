@@ -8,6 +8,7 @@ import FetchApiTable from "./Components/fetchapi-table";
 import { useState, useRef  } from "react";
 import ChildComponent from "./Components/child-component";
 import ChildComponentUseRef from "./Components/child-comp-useref";
+import CustomHookFetchApi from "./Components/CustomHookFetchApi";
 
 function App() {
   const [message, setMessage] = useState("");
@@ -18,7 +19,7 @@ function App() {
   const getChildData = () => {
     alert(childRef.current); // Access data from child
   };
-  
+
   return (
     <div className="App">
       <h1>React Coding Example</h1>
@@ -28,10 +29,13 @@ function App() {
       <Todo />
       <FetchApi />
       <FetchApiTable/> */}
-      <ChildComponent sendDataToParent={handleDataFromChild} />
+      {/* <ChildComponent sendDataToParent={handleDataFromChild} />
       <p>Message: {message}</p>
       <ChildComponentUseRef dataRef={childRef} />
-      <button onClick={getChildData}>Get Data</button>
+      <button onClick={getChildData}>Get Data</button> */}
+
+      <CustomHookFetchApi/>
+      
     </div>
   );
 }
