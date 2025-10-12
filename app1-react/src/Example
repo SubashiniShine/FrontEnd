@@ -7,3 +7,5 @@ fetchapi table
 child - parent - usestate
 child - parent - useref
 customHook for Fetch api
+counter with reducer
+Timers

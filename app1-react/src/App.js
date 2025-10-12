@@ -5,11 +5,12 @@ import Counter from "./Components/Counter";
 import Todo from "./Components/Todo";
 import FetchApi from "./Components/fetchApi";
 import FetchApiTable from "./Components/fetchapi-table";
-import { useState, useRef  } from "react";
+import { useState, useRef } from "react";
 import ChildComponent from "./Components/child-component";
 import ChildComponentUseRef from "./Components/child-comp-useref";
 import CustomHookFetchApi from "./Components/CustomHookFetchApi";
-
+import CounterWithReducer from "./Components/CounterWithReducer";
+import Timer from "./Components/Timer";
 function App() {
   const [message, setMessage] = useState("");
   const handleDataFromChild = (data) => {
@@ -34,8 +35,9 @@ function App() {
       <ChildComponentUseRef dataRef={childRef} />
       <button onClick={getChildData}>Get Data</button> */}
 
-      <CustomHookFetchApi/>
-      
+      {/* <CustomHookFetchApi/> */}
+      {/* <CounterWithReducer/> */}
+      <Timer />
     </div>
   );
 }
