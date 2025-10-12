@@ -11,6 +11,8 @@ import ChildComponentUseRef from "./Components/child-comp-useref";
 import CustomHookFetchApi from "./Components/CustomHookFetchApi";
 import CounterWithReducer from "./Components/CounterWithReducer";
 import Timer from "./Components/Timer";
+import NestedMarkUpdate from "./Components/NestedMarkUpdate";
+import CountrySelection from "./Components/CountrySelection";
 function App() {
   const [message, setMessage] = useState("");
   const handleDataFromChild = (data) => {
@@ -35,9 +37,11 @@ function App() {
       <ChildComponentUseRef dataRef={childRef} />
       <button onClick={getChildData}>Get Data</button> */}
 
-      {/* <CustomHookFetchApi/> */}
-      {/* <CounterWithReducer/> */}
-      <Timer />
+      {/* <CustomHookFetchApi/>
+      <CounterWithReducer/>
+      <Timer /> */}
+      {/* <NestedMarkUpdate/> */}
+      <CountrySelection/>
     </div>
   );
 }
