@@ -11,3 +11,6 @@ counter with reducer
 Timers
 nested mark update
 country selection
+arrayMethods
+callApplyBind
+currying / closure
