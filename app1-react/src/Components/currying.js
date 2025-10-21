@@ -18,3 +18,14 @@ function outer() {
   inner();
 }
 outer();
+
+// callback
+function greet(name, callback) {
+  console.log("Hi " + name);
+  callback();
+}
+function callMe() {
+  console.log("Callback function have been called");
+}
+
+greet("Suba", callMe);

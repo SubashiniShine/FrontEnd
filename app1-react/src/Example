@@ -13,4 +13,25 @@ nested mark update
 country selection
 arrayMethods
 callApplyBind
-currying / closure
+currying / closure / callback
+promise
+1.	Sum of all even numbers in an array
+2.	String reverse example(using inbuilt &without inbuilt ) vignesh =>o/p hsengiv 
+3.	reverses the order of words in a sentence(hello wold)=>world hello
+4.	Find min and max number from the array using inbuilt &without inbuilt method
+5.	Remove duplicates from an array [1,5,2,1,5]=>o/p [1,5,2]
+6.	Split your name to each character
+7.	Find vowels count
+8.	Capitalize first letter
+9.	Sort array in ascending and descending order
+10.	Count the occurrence of char in a string
+11.	get below output from given input ? I/P: abbcccddddeea O/P: 1a2b3c4d2e1a
+12.	count duplicates in an array
+13.	remove whitespace from string
+14.	Palindrome or not
+15.	Move zeros to the end
+16.	Count duplicate characters in the string
+17.	Find longest words in a sentence
+18.	Flatten the array
+19.	Merge and remove duplicate
+20.	Remove duplicate from array of objects
